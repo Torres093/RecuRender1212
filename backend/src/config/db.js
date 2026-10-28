@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const connectDB = async () => {
-  const uri = process.env.MONGODB_URI || 'mongodb://localhost:21017/fashion_inventory';
+  const uri = process.env.MONGODB_URI || 'mongodb+srv://ricardomayorgack:Rical1234@cluster0.uibyr.mongodb.net/megaDB?appName=Cluster0';
 
   try {
     const conn = await mongoose.connect(uri);
